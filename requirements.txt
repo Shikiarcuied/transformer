@@ -1,0 +1,4 @@
+conda create -n torch python=3.10
+conda activate torch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+pip install transformers datasets evaluate
